@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Roboto Condensed', sans-serif;
+  display: flex;
+  align-items: center;
+  min-height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+  background-image: url('fireworks-scaled.jpeg');
+  background-color: rgb(56, 44, 58)
+  
+}
+h1{
+  font-size: 5rem;
+  text-decoration: underline;
+}
+#Heading{
+  margin-top:10rem;
+  margin-bottom: 2.5rem;
+
+}
+.Countdown{
+  display: flex;
+  justify-content: space-around;
+  
+}
+.time{
+  font-size: 3rem;
+  text-align: center;
+}
+.label{
+  font-size: 2rem;
+  text-align: center;
+}
